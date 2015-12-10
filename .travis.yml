@@ -33,8 +33,6 @@ matrix:
     - php: hhvm
     - env: SYMFONY_VERSION=2.8.*@dev
     - env: SYMFONY_VERSION="3.0.*@dev"
-    # TODO: Remove those two line when test will be fixed.
-    - env: COMPOSER_FLAGS="--prefer-lowest"
 
 services:
   - mongodb
